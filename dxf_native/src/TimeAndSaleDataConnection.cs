@@ -1,4 +1,4 @@
-﻿#region License
+#region License
 
 /*
 Copyright (c) 2010-2021 Devexperts LLC
@@ -128,8 +128,7 @@ namespace com.dxfeed.native
                    $"start={fromTime.ToUniversalTime():yyyyMMdd-HHmmss}Z&" +
                    $"stop={toTime.ToUniversalTime():yyyyMMdd-HHmmss}Z&" +
                    "format=binary&" +
-                   "compression=zip&" +
-                   "skipServerTimeCheck";
+                   "compression=zip";
         }
     }
 }
